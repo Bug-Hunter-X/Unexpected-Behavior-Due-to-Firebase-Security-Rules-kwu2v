@@ -1,0 +1,2 @@
+# Firebase Security Rules Debugging
+This repository demonstrates a common but often overlooked issue in Firebase projects: unexpected behavior caused by improperly configured security rules.  The `firebaseBug.js` file showcases code that attempts database operations, potentially failing due to overly permissive or restrictive rules.  The solution, provided in `firebaseBugSolution.js`, illustrates how to correctly structure rules to prevent these problems.  See the documentation for more information on writing secure and effective Firebase rules.
